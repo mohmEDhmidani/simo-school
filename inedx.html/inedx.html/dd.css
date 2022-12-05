@@ -1,0 +1,169 @@
+@media all{
+
+
+body{
+ 
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+
+}
+img#img {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+img{
+  border-style: solid black;
+  width: 100%;
+    HEIGHT: 300PX;
+
+}
+main#ff{
+    margin-top: 7%;
+    margin-left: 32%;
+    padding-bottom: 10px;
+    border-style: solid black;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    background: honeydew;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-style: solid black;
+    float: left;
+    margin-left: 20px
+  }
+  a#gg{
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+ 
+
+  .container {
+    padding: 2px 16px;
+    background-color: aqua;
+   
+  }
+  ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+  }
+  
+  @media (min-width: 500px) {
+    ul {
+      grid-auto-flow: column;
+    }
+  }
+  
+  a {
+    color: rgb(34, 32, 32);
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+  }
+  
+  a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+  }
+  
+  li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  li:hover ~ li p {
+    animation: wave-animation 0.3s infinite;
+  }
+  /* .footer {
+    margin: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(9, 90, 66);
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+    height: 40px;
+    width: 40%;
+    margin-left: 29%;
+    border-radius: 20px;
+    margin-top: 90%;
+    PADDING: 13PX 0;
+    TEXT-ALIGN: center;
+    LINE-HEIGHT: 1PX;
+ }*/
+ /*
+ ul{
+  padding-top: 25px;
+  float: right;
+  background: rgb(214, 207, 207);
+    height: 70PX;
+    width: 100%;
+    border-radius: 20px;
+}
+
+li{
+  display: inline-block;
+  padding-right: 40px;
+  width: 200px;
+  color: black;
+
+}
+*/
+div#ll{
+  background-color: #fee9ba;
+    border-radius: 20px;
+    width: 90px;
+    direction: rtl;
+    margin-left: 800px;
+    margin-top: 50px;
+    height: 40px;
+    text-align: center;
+}
+div{
+  margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+#ghh{
+  width: 300px;
+  height: 100px;
+  
+  FLOAT: left;
+    TEXT-ALIGN: center;
+    PADDING: 45PX;
+    FONT-SIZE: xx-large;
+    BORDER: 3PX SOLID;
+    BORDER-RADIUS: 20PX;
+    margin-left: 400px;
+    animation-name: MAMI;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    color: aliceblue;
+
+}
+@keyframes MAMI{
+  0%{
+    background-color: aqua;
+  }
+  50%{
+    background-color: rgb(127, 236, 236);
+
+  }
+  100%{
+    background-color: rgb(18, 19, 19);
+
+  }
+}

@@ -1,0 +1,83 @@
+form{
+    background-color: #f1f1f1;
+    border: 3px solid #f1f1f1;
+    width: 45%;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+body{
+    text-align: center;
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.simo{
+    width: 30px;
+    border-radius: 25px;
+    vertical-align: bottom;
+    BACKGROUND: BLUE;
+    COLOR: WHITE;
+}
+.khoya{
+    width: 30px;
+    border-radius: 25px;
+    vertical-align: bottom;
+    BACKGROUND: BLUE;
+    COLOR: WHITE;
+}
+button{
+    width: 350px;
+    height: 35px;
+    margin-left: 50px;
+    background-color: rgba(58, 60, 223, 0.923);
+    border: none;
+    margin-top: 20px;
+}
+#name{
+    width: 350px;
+    height: 35px;
+}
+#pass{
+    width: 350px;
+    height: 35px;
+}
+#f{
+    text-decoration: none;
+    margin-left: 150px;
+}
+.facce{
+    width: 100px;
+}
+.twiit{
+    width: 100px;
+}
+.gog{
+    width: 100px;
+}
+.here{
+    text-decoration: none;
+}
+h1{
+    font-family: sans-serif;
+    background: white;
+    width: 50%;
+    text-align: center;
+     margin-left: 25%;
+}
+.shop{
+    color: white;
+    cursor: pointer;
+}
+.up{
+    background-color: red;
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 29%;
+}
+.shop:hover{
+    text-decoration: underline;
+}
+

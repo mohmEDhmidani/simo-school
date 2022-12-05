@@ -1,0 +1,17 @@
+hr#h{
+    background: black;
+}
+
+    td#SIMOO{
+    background: blue;
+    width: 80%;
+    TEXT-ALIGN: center;
+    margin-top: 20%;
+    
+}
+footer#foo{
+    background-color: yellow;
+    width: 90%;
+    height: 50px;
+    
+}

@@ -1,0 +1,123 @@
+@media all{
+
+
+.container{
+    height: 40%;
+    WIDTH: 70%;
+    MARGIN: 2O0px AUTO;
+    padding: 80px;
+}
+img{
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding: 0 10px 0 0;
+}
+text{
+    text-align: justify;
+    font-family: verdana;
+    margin-left: 30%;
+    margin-right: 100px;
+}
+    body{
+        background-image: url(hmmd.jfif);
+        background-repeat: no-repeat;
+        
+    }
+    ul{
+        padding-top: 25px;
+        float: right;
+        
+      }
+      
+      li{
+        display: inline-block;
+        padding-right: 40px;
+        width: 200px;
+        color: black;
+        font-size: 17px;
+      }
+      .footer{
+        text-align: center;
+        background-color: rgb(245 235 144);
+        height: 40px;
+        width: 40%;
+        margin-left: 29%;
+        border-radius: 20px;
+        margin-top: 150px;
+        padding-top: 20px;
+      }
+    /* div#pdf{
+      background: #ffeb3b;
+    height: 20PX;
+    WIDTH: 100PX;
+    COLOR: WHEAT;
+    BORDER-RADIUS: 20PX;
+    TEXT-ALIGN: center;
+  }*/
+  .SS{
+    color: aliceblue;
+  }
+  div#ZZ{
+    color: black;
+    background-color: bisque;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center
+  }
+  div#ee{
+    color: black;
+    background-color: bisque;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center
+  }
+  div#gg{
+    color: black;
+    background-color: bisque;
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+    text-align: center
+  }
+  body{
+    margin-left: 100px;
+  }
+  div#dd{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .btn{
+    width: 160px; height: 50px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+  }
+  .text1
+  .text2{
+    position: absolute;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: 50% 50% -25px;
+    transition: all 0.3s;
+
+  }
+  .text1{
+    transform: rotate(0deg);
+    background-color: #292929;
+    color: #fff;
+
+  }
+  .text2{
+    transform: rotate(0deg);
+    background-color: #eee;
+    color: #131313;
+  }
+  .text2 i{ margin-left: 50px;}
+}
